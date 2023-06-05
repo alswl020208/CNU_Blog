@@ -58,13 +58,20 @@ const Layout = () => {
   return (
     <div>
       <Profile>
-        {/*todo (1) 프로필 꾸미기*/}
         <div>
+<<<<<<< HEAD
           <ProfilePicture src="https://mediahub.seoul.go.kr/wp-content/uploads/2016/09/61a2981f41200ac8c513a3cbc0010efe.jpg" alt="프로필 사진" />
         </div>
         <div>
           <Name>김감자</Name>
           <Description>설명이 모죠</Description>
+=======
+          <ProfilePicture src="https://t1.daumcdn.net/cfile/tistory/99107A335C1EED5005" alt="프로필 사진" />
+        </div>
+        <div>
+          <Name>제시</Name>
+          <Description>브롤스타즈~</Description>
+>>>>>>> b8a6d60efcb0a8ca8e508590fd39983c799e7d16
         </div>
       </Profile>
       <Nav>

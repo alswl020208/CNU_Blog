@@ -32,9 +32,19 @@ const list = [
 ];
 
 const Home = () => {
+<<<<<<< HEAD
   return <div>{
     list.map(item => (<PostListItem key={item.post.id} {...item.post}/>))
   }</div>;
+=======
+  return (
+    <div>
+      {list.map(item => (
+        <PostListItem key={item.post.id} {...item.post} />
+      ))}
+    </div>
+  );
+>>>>>>> b8a6d60efcb0a8ca8e508590fd39983c799e7d16
 };
 
 export default Home;
